@@ -1,0 +1,29 @@
+PODS:
+  - NCMB (3.0.0)
+  - "UITextView+Placeholder (1.2.0)"
+
+DEPENDENCIES:
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 24a1cd2033d7d5f2d7c355e0f4cb0c72234930fc
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  NCMB: 53f7cd60388556330e18cc9196cbe4f897d5c091
+  "UITextView+Placeholder": 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: 12c70ddf4484c0e2525e293c172987bf086279a0
+
+COCOAPODS: 1.5.2
