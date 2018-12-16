@@ -14,6 +14,7 @@
 		A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A759CC9821C5E5F100747B12 /* LaunchScreen.storyboard */; };
 		A759CCA521C5E5F200747B12 /* IppinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCA421C5E5F200747B12 /* IppinTests.swift */; };
 		A759CCB021C5E5F200747B12 /* IppinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCAF21C5E5F200747B12 /* IppinUITests.swift */; };
+		A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A759CCBD21C5E62E00747B12 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A759CCAB21C5E5F200747B12 /* IppinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IppinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759CCAF21C5E5F200747B12 /* IppinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IppinUITests.swift; sourceTree = "<group>"; };
 		A759CCB121C5E5F200747B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A759CCBD21C5E62E00747B12 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,11 @@
 		A759CC8E21C5E5EF00747B12 /* Ippin */ = {
 			isa = PBXGroup;
 			children = (
+				A759CCBF21C5E63900747B12 /* Image */,
 				A759CC8F21C5E5EF00747B12 /* AppDelegate.swift */,
 				A759CC9121C5E5EF00747B12 /* ViewController.swift */,
 				A759CC9321C5E5EF00747B12 /* Main.storyboard */,
+				A759CCBD21C5E62E00747B12 /* Login.storyboard */,
 				A759CC9621C5E5F100747B12 /* Assets.xcassets */,
 				A759CC9821C5E5F100747B12 /* LaunchScreen.storyboard */,
 				A759CC9B21C5E5F100747B12 /* Info.plist */,
@@ -123,6 +127,13 @@
 				A759CCB121C5E5F200747B12 /* Info.plist */,
 			);
 			path = IppinUITests;
+			sourceTree = "<group>";
+		};
+		A759CCBF21C5E63900747B12 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */,
 				A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */,
 				A759CC9721C5E5F100747B12 /* Assets.xcassets in Resources */,
 				A759CC9521C5E5EF00747B12 /* Main.storyboard in Resources */,
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57LXY994L3;
 				INFOPLIST_FILE = Ippin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mitsuki.com.count.Ippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57LXY994L3;
 				INFOPLIST_FILE = Ippin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mitsuki.com.count.Ippin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
