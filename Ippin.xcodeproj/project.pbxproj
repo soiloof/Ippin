@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		6D52DB6F1CCB7E0EC889192B /* Pods_IppinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A65A1C2F72B042C9DF799952 /* Pods_IppinUITests.framework */; };
 		A759CC9021C5E5EF00747B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CC8F21C5E5EF00747B12 /* AppDelegate.swift */; };
-		A759CC9221C5E5EF00747B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CC9121C5E5EF00747B12 /* ViewController.swift */; };
 		A759CC9521C5E5EF00747B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A759CC9321C5E5EF00747B12 /* Main.storyboard */; };
 		A759CC9721C5E5F100747B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A759CC9621C5E5F100747B12 /* Assets.xcassets */; };
 		A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A759CC9821C5E5F100747B12 /* LaunchScreen.storyboard */; };
 		A759CCA521C5E5F200747B12 /* IppinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCA421C5E5F200747B12 /* IppinTests.swift */; };
 		A759CCB021C5E5F200747B12 /* IppinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCAF21C5E5F200747B12 /* IppinUITests.swift */; };
 		A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A759CCBD21C5E62E00747B12 /* Login.storyboard */; };
+		A759CCC121C5F4A300747B12 /* icons8-ユーザー-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCC021C5F4A300747B12 /* icons8-ユーザー-50.png */; };
+		A759CCC321C5F4AD00747B12 /* icons8-料理とワイン-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */; };
+		A759CCC521C5FB5100747B12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCC421C5FB5100747B12 /* HomeViewController.swift */; };
+		A759CCC721C5FB6700747B12 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCC621C5FB6700747B12 /* UserViewController.swift */; };
 		AE494037863CE8334FFBF36D /* Pods_IppinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */; };
 		E42FF5A124579D4251776172 /* Pods_Ippin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1F1481AC5BF9B3FE2F8E32 /* Pods_Ippin.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +49,6 @@
 		A65A1C2F72B042C9DF799952 /* Pods_IppinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IppinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759CC8C21C5E5EF00747B12 /* Ippin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ippin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759CC8F21C5E5EF00747B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A759CC9121C5E5EF00747B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A759CC9421C5E5EF00747B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A759CC9621C5E5F100747B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A759CC9921C5E5F100747B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +60,10 @@
 		A759CCAF21C5E5F200747B12 /* IppinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IppinUITests.swift; sourceTree = "<group>"; };
 		A759CCB121C5E5F200747B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A759CCBD21C5E62E00747B12 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A759CCC021C5F4A300747B12 /* icons8-ユーザー-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ユーザー-50.png"; sourceTree = "<group>"; };
+		A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-料理とワイン-50.png"; sourceTree = "<group>"; };
+		A759CCC421C5FB5100747B12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A759CCC621C5FB6700747B12 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IppinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBAC80C34984A924885BB1 /* Pods-IppinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IppinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IppinUITests/Pods-IppinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEDC81A5C2A5FD9EEFF9F2AE /* Pods-Ippin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ippin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ippin/Pods-Ippin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +134,8 @@
 			children = (
 				A759CCBF21C5E63900747B12 /* Image */,
 				A759CC8F21C5E5EF00747B12 /* AppDelegate.swift */,
-				A759CC9121C5E5EF00747B12 /* ViewController.swift */,
+				A759CCC421C5FB5100747B12 /* HomeViewController.swift */,
+				A759CCC621C5FB6700747B12 /* UserViewController.swift */,
 				A759CC9321C5E5EF00747B12 /* Main.storyboard */,
 				A759CCBD21C5E62E00747B12 /* Login.storyboard */,
 				A759CC9621C5E5F100747B12 /* Assets.xcassets */,
@@ -159,6 +166,8 @@
 		A759CCBF21C5E63900747B12 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				A759CCC021C5F4A300747B12 /* icons8-ユーザー-50.png */,
+				A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -285,9 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */,
+				A759CCC121C5F4A300747B12 /* icons8-ユーザー-50.png in Resources */,
 				A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */,
 				A759CC9721C5E5F100747B12 /* Assets.xcassets in Resources */,
 				A759CC9521C5E5EF00747B12 /* Main.storyboard in Resources */,
+				A759CCC321C5F4AD00747B12 /* icons8-料理とワイン-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,8 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A759CC9221C5E5EF00747B12 /* ViewController.swift in Sources */,
 				A759CC9021C5E5EF00747B12 /* AppDelegate.swift in Sources */,
+				A759CCC721C5FB6700747B12 /* UserViewController.swift in Sources */,
+				A759CCC521C5FB5100747B12 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
