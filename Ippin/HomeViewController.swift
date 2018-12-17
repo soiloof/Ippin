@@ -8,23 +8,33 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UICollectionViewDataSource {
+    
+    @IBOutlet var ippinCollectionView: UICollectionView!
+    var ippinArray = [["name":"豚骨ラーメン","image":UIImage(named: "noodle1.jpeg")],["name":"醤油ラーメン","image":UIImage(named: "noodle2.jpeg")],["name":"塩ラーメン","image":UIImage(named: "noodle3.jpeg")],["name":"味噌ラーメン","image":UIImage(named: "noodle4.jpeg")],["name":"油そば","image":UIImage(named: "noodle5.jpg")]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        ippinCollectionView.dataSource=self
 
-        // Do any additional setup after loading the view.
+        
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let ippinCell = collectionView.dequeueReusableCell(withReuseIdentifier: "IppinCell", for: indexPath)
+        let ippinNameLabel = ippinCell.contentView.viewWithTag(1) as! UILabel
+        ippinNameLabel.text = ippinArray[indexPath.row]["name"] as! String
+        var ippinImage = ippinCell.contentView.viewWithTag(2) as! UIImageView
+        ippinImage.image = ippinArray[indexPath.row]["image"] as! UIImage
+       
+        return ippinCell
     }
-    */
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return ippinArray.count
+    }
+
 
 }

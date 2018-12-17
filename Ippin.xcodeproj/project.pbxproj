@@ -19,6 +19,11 @@
 		A759CCC321C5F4AD00747B12 /* icons8-料理とワイン-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */; };
 		A759CCC521C5FB5100747B12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCC421C5FB5100747B12 /* HomeViewController.swift */; };
 		A759CCC721C5FB6700747B12 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCC621C5FB6700747B12 /* UserViewController.swift */; };
+		A759CCC921C748F900747B12 /* noodle1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCC821C748F900747B12 /* noodle1.jpeg */; };
+		A759CCCB21C7490400747B12 /* noodle2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCA21C7490400747B12 /* noodle2.jpeg */; };
+		A759CCCF21C7491000747B12 /* noodle5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCC21C7490F00747B12 /* noodle5.jpg */; };
+		A759CCD021C7491000747B12 /* noodle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCD21C7490F00747B12 /* noodle4.jpeg */; };
+		A759CCD121C7491000747B12 /* noodle3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCE21C7491000747B12 /* noodle3.jpeg */; };
 		AE494037863CE8334FFBF36D /* Pods_IppinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */; };
 		E42FF5A124579D4251776172 /* Pods_Ippin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1F1481AC5BF9B3FE2F8E32 /* Pods_Ippin.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +69,11 @@
 		A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-料理とワイン-50.png"; sourceTree = "<group>"; };
 		A759CCC421C5FB5100747B12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A759CCC621C5FB6700747B12 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		A759CCC821C748F900747B12 /* noodle1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle1.jpeg; sourceTree = "<group>"; };
+		A759CCCA21C7490400747B12 /* noodle2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle2.jpeg; sourceTree = "<group>"; };
+		A759CCCC21C7490F00747B12 /* noodle5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle5.jpg; sourceTree = "<group>"; };
+		A759CCCD21C7490F00747B12 /* noodle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle4.jpeg; sourceTree = "<group>"; };
+		A759CCCE21C7491000747B12 /* noodle3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle3.jpeg; sourceTree = "<group>"; };
 		B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IppinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBAC80C34984A924885BB1 /* Pods-IppinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IppinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IppinUITests/Pods-IppinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEDC81A5C2A5FD9EEFF9F2AE /* Pods-Ippin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ippin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ippin/Pods-Ippin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,8 +176,13 @@
 		A759CCBF21C5E63900747B12 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				A759CCCA21C7490400747B12 /* noodle2.jpeg */,
+				A759CCC821C748F900747B12 /* noodle1.jpeg */,
 				A759CCC021C5F4A300747B12 /* icons8-ユーザー-50.png */,
 				A759CCC221C5F4AD00747B12 /* icons8-料理とワイン-50.png */,
+				A759CCCE21C7491000747B12 /* noodle3.jpeg */,
+				A759CCCD21C7490F00747B12 /* noodle4.jpeg */,
+				A759CCCC21C7490F00747B12 /* noodle5.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -294,9 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */,
+				A759CCC921C748F900747B12 /* noodle1.jpeg in Resources */,
+				A759CCD121C7491000747B12 /* noodle3.jpeg in Resources */,
+				A759CCCF21C7491000747B12 /* noodle5.jpg in Resources */,
 				A759CCC121C5F4A300747B12 /* icons8-ユーザー-50.png in Resources */,
+				A759CCCB21C7490400747B12 /* noodle2.jpeg in Resources */,
 				A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */,
 				A759CC9721C5E5F100747B12 /* Assets.xcassets in Resources */,
+				A759CCD021C7491000747B12 /* noodle4.jpeg in Resources */,
 				A759CC9521C5E5EF00747B12 /* Main.storyboard in Resources */,
 				A759CCC321C5F4AD00747B12 /* icons8-料理とワイン-50.png in Resources */,
 			);
