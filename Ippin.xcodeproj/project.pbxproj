@@ -25,6 +25,11 @@
 		A759CCD021C7491000747B12 /* noodle4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCD21C7490F00747B12 /* noodle4.jpeg */; };
 		A759CCD121C7491000747B12 /* noodle3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A759CCCE21C7491000747B12 /* noodle3.jpeg */; };
 		A759CCD321C77ECC00747B12 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759CCD221C77ECC00747B12 /* DetailViewController.swift */; };
+		A759CCD821CDCC9D00747B12 /* icons8-日本円-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCD421CDCC9A00747B12 /* icons8-日本円-50.png */; };
+		A759CCD921CDCC9D00747B12 /* icons8-評価-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCD521CDCC9C00747B12 /* icons8-評価-50.png */; };
+		A759CCDA21CDCC9D00747B12 /* icons8-いいね-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCD621CDCC9C00747B12 /* icons8-いいね-50.png */; };
+		A759CCDB21CDCC9D00747B12 /* icons8-ジオフェンス-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCD721CDCC9D00747B12 /* icons8-ジオフェンス-50.png */; };
+		A759CCDD21CDCDDB00747B12 /* icons8-レストランの建物-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A759CCDC21CDCDDB00747B12 /* icons8-レストランの建物-50.png */; };
 		AE494037863CE8334FFBF36D /* Pods_IppinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */; };
 		E42FF5A124579D4251776172 /* Pods_Ippin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1F1481AC5BF9B3FE2F8E32 /* Pods_Ippin.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +81,11 @@
 		A759CCCD21C7490F00747B12 /* noodle4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle4.jpeg; sourceTree = "<group>"; };
 		A759CCCE21C7491000747B12 /* noodle3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle3.jpeg; sourceTree = "<group>"; };
 		A759CCD221C77ECC00747B12 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A759CCD421CDCC9A00747B12 /* icons8-日本円-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-日本円-50.png"; sourceTree = "<group>"; };
+		A759CCD521CDCC9C00747B12 /* icons8-評価-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-評価-50.png"; sourceTree = "<group>"; };
+		A759CCD621CDCC9C00747B12 /* icons8-いいね-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-いいね-50.png"; sourceTree = "<group>"; };
+		A759CCD721CDCC9D00747B12 /* icons8-ジオフェンス-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-ジオフェンス-50.png"; sourceTree = "<group>"; };
+		A759CCDC21CDCDDB00747B12 /* icons8-レストランの建物-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-レストランの建物-50.png"; sourceTree = "<group>"; };
 		B7DD45D8B80664A792130B02 /* Pods_IppinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IppinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CBAC80C34984A924885BB1 /* Pods-IppinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IppinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IppinUITests/Pods-IppinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEDC81A5C2A5FD9EEFF9F2AE /* Pods-Ippin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ippin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ippin/Pods-Ippin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +196,11 @@
 				A759CCCE21C7491000747B12 /* noodle3.jpeg */,
 				A759CCCD21C7490F00747B12 /* noodle4.jpeg */,
 				A759CCCC21C7490F00747B12 /* noodle5.jpg */,
+				A759CCD621CDCC9C00747B12 /* icons8-いいね-50.png */,
+				A759CCD721CDCC9D00747B12 /* icons8-ジオフェンス-50.png */,
+				A759CCD421CDCC9A00747B12 /* icons8-日本円-50.png */,
+				A759CCD521CDCC9C00747B12 /* icons8-評価-50.png */,
+				A759CCDC21CDCDDB00747B12 /* icons8-レストランの建物-50.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -314,13 +329,18 @@
 				A759CCBE21C5E62E00747B12 /* Login.storyboard in Resources */,
 				A759CCC921C748F900747B12 /* noodle1.jpeg in Resources */,
 				A759CCD121C7491000747B12 /* noodle3.jpeg in Resources */,
+				A759CCD921CDCC9D00747B12 /* icons8-評価-50.png in Resources */,
 				A759CCCF21C7491000747B12 /* noodle5.jpg in Resources */,
 				A759CCC121C5F4A300747B12 /* icons8-ユーザー-50.png in Resources */,
+				A759CCDD21CDCDDB00747B12 /* icons8-レストランの建物-50.png in Resources */,
 				A759CCCB21C7490400747B12 /* noodle2.jpeg in Resources */,
+				A759CCD821CDCC9D00747B12 /* icons8-日本円-50.png in Resources */,
+				A759CCDB21CDCC9D00747B12 /* icons8-ジオフェンス-50.png in Resources */,
 				A759CC9A21C5E5F100747B12 /* LaunchScreen.storyboard in Resources */,
 				A759CC9721C5E5F100747B12 /* Assets.xcassets in Resources */,
 				A759CCD021C7491000747B12 /* noodle4.jpeg in Resources */,
 				A759CC9521C5E5EF00747B12 /* Main.storyboard in Resources */,
+				A759CCDA21CDCC9D00747B12 /* icons8-いいね-50.png in Resources */,
 				A759CCC321C5F4AD00747B12 /* icons8-料理とワイン-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

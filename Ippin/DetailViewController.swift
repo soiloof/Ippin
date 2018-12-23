@@ -9,9 +9,13 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    var selectedIppin:[String:Any] = [:]
+    var selectedIppin:[(name:String, image:UIImage, evaluation:Double, restaurant:String, price:Int, place:String, lat:Double, lng:Double)]!
     @IBOutlet var ippinImage:UIImageView!
     @IBOutlet var ippinNameLabel:UILabel!
+    @IBOutlet var ippinEvaluationLabel:UILabel!
+    @IBOutlet var ippinRestaurantNameLabel:UILabel!
+    @IBOutlet var ippinPriceLabel:UILabel!
+    @IBOutlet var ippinPlaceLabel:UILabel!
     
     
 
@@ -23,9 +27,15 @@ class DetailViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        ippinImage.image = selectedIppin["image"] as! UIImage
-        ippinNameLabel.text = selectedIppin["name"] as! String
-        print(selectedIppin)
+        if selectedIppin != nil{
+            ippinImage.image = selectedIppin[0].image
+            ippinNameLabel.text = selectedIppin[0].name
+            ippinEvaluationLabel.text = "★★★"+String(selectedIppin[0].evaluation)
+            ippinRestaurantNameLabel.text = selectedIppin[0].restaurant
+            ippinPriceLabel.text = String(selectedIppin[0].price)
+            ippinPriceLabel.text = selectedIppin[0].place
+        }
+
     }
     
     @IBAction func StoreIppin(){
